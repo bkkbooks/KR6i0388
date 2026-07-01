@@ -1,0 +1,38 @@
+canonical_identifier: bkk:krp/KR6i0388/T/v1
+canonical_location: https://kanripo.org/bkk/KR6i0388/T/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 浴佛功德經
+  identifiers:
+    krp: KR6i0388
+    cbeta: T16n0698
+    cbeta_old_id: T16n0698
+    authorityid: CA0003857
+    json_key: T0698
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T16/T16n0698.xml
+    old_id: T16n0698
+  edition:
+    short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6i0388_000-T.yaml, hash: 'sha256:3382c867aab8d2513dc3cc11cad9700fba68e0e3027000f766a2def40ad4ccdc'}
+  - {seq: 1, filename: KR6i0388_001-T.yaml, hash: 'sha256:e0e8e68ee0dc22ccb94bea9b73b079a1b609a54e558d6fb8ba78e65db66abde1'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR6i0388_000-T.markers.yaml, hash: 'sha256:1c3b5aa70d57733f12e534d6a440cf9eea57ea4a2881c0f9adad39114bae101b'}
+  - {seq: 1, role: markers, filename: assets/KR6i0388_001-T.markers.yaml, hash: 'sha256:3b5013a5e3dff41c6864434cea74ac33cd378bfb1999287c2cb3731ab21a8dce'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6i0388_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 1484
+  label: 浴佛功德經
+  type: juan
+  level: 1
+hash: sha256:4f10c4eff1c11bee0a585ffda88220d7b2a6cb4dad7091bc064ec2c2cbacb5f3
